@@ -1,0 +1,101 @@
+.head1 {
+  text-transform: uppercase;
+  font-family: "Londrina Solid" !important;
+  background-color: lightgray;
+  color: #524a83;
+  font-size: 1.23rem;
+  font-weight: 600;
+}
+.sub-head {
+  font-family: "Barlow";
+  color: #524a83;
+}
+
+.ques-block1 {
+  margin-top: 10px;
+  height: 240px;
+  width: 240px;
+  background-color: lightgray;
+}
+
+.row-block1 {
+  background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (min-width: 600px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
+  border: 1px #ddd;
+  border: 1px rgba(86, 61, 124, 0.2);
+}
+.color-1 {
+  background-color: #ffc68d;
+  border-color: red;
+  box-shadow: -3px 4px 3px -1px #aaaaaa;
+}
+.color-2 {
+  background-color: #ffcccb;
+  border-color: black;
+  box-shadow: -3px 4px 3px -1px #aaaaaa;
+}
+.color-3 {
+  background-color: #999900;
+  border-color: magenta;
+  box-shadow: -3px 4px 3px -1px #aaaaaa;
+}
+
+.color-4 {
+  background-color: yellow;
+  border-color: yellow;
+  box-shadow: -3px 4px 3px -1px #aaaaaa;
+}
+
+.dndPlaceholder {
+  border: dotted #a9a9a9;
+  min-height: 35px;
+  width: 85px;
+  font-size: 1.19rem;
+  text-align: center;
+  font-family: "Barlow";
+  border-radius: 25px;
+}
+.disableDiv {
+  cursor: not-allowed;
+}
+
+.btn1:hover {
+  background-color: #08cfa4;
+  box-shadow: 1px 1px 3px #05ad89;
+}
+.btn2 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.msg1 {
+  position: absolute;
+}
+
+.over1 {
+  position: absolute;
+  opacity: 0.98;
+  z-index: 1;
+}
+
+.over2 {
+  z-index: -1;
+}
